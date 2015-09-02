@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  inheritViewController.h
 //  awakeFromnib
 //
 //  Created by quy on 8/30/15.
 //  Copyright (c) 2015 quy. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController : UIViewController
+@interface inheritViewController : ViewController
 
--(void)makecall ;
 @end
-

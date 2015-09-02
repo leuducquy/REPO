@@ -14,6 +14,7 @@
 		F25750A01B92B4120063131C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F257509F1B92B4120063131C /* Images.xcassets */; };
 		F25750A31B92B4120063131C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25750A11B92B4120063131C /* LaunchScreen.xib */; };
 		F25750AF1B92B4130063131C /* awakeFromnibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25750AE1B92B4130063131C /* awakeFromnibTests.m */; };
+		F25750BA1B92B7910063131C /* inheritViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25750B91B92B7910063131C /* inheritViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F25750A81B92B4130063131C /* awakeFromnibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = awakeFromnibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25750AD1B92B4130063131C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25750AE1B92B4130063131C /* awakeFromnibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = awakeFromnibTests.m; sourceTree = "<group>"; };
+		F25750B81B92B7910063131C /* inheritViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inheritViewController.h; sourceTree = "<group>"; };
+		F25750B91B92B7910063131C /* inheritViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inheritViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		F25750861B92B4120063131C = {
 			isa = PBXGroup;
 			children = (
+				F25750B81B92B7910063131C /* inheritViewController.h */,
+				F25750B91B92B7910063131C /* inheritViewController.m */,
 				F25750911B92B4120063131C /* awakeFromnib */,
 				F25750AB1B92B4130063131C /* awakeFromnibTests */,
 				F25750901B92B4120063131C /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25750BA1B92B7910063131C /* inheritViewController.m in Sources */,
 				F257509B1B92B4120063131C /* ViewController.m in Sources */,
 				F25750981B92B4120063131C /* AppDelegate.m in Sources */,
 				F25750951B92B4120063131C /* main.m in Sources */,
